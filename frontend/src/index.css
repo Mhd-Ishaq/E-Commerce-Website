@@ -7,17 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header{
-  background-color: #404040;
-  padding: 2rem;
-}
-header a{
-  text-decoration: none;
-  color: #ffff;
-  font-weight: bold;
+
+.site-container {
+  min-height: 100vh;
 }
 main{
-  padding: 1rem;
+  flex: 1;
 }
 .products{
   display: flex;
